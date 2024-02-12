@@ -2,4 +2,4 @@
 
 This is the readme.md file for **assignment 3** and the required image is embedded below.
 
-![Alt text](./img/file.png)
+![Alt text](./img/file.PNG)
