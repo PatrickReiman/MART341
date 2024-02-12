@@ -5,4 +5,4 @@
 
 [Absolute url](https://github.com/PatrickReiman/WebDesignHomework/blob/main/Assignment%202/readme.md) and [relative url](./readme.md)
 
-[Alt text](./img/cruise%20ship.jpg)
+[Alt text](cruise%20ship.jpg)
