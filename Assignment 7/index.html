@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "descripion" content = "Testing HTML elements">
+    <meta name = "author" content = "Patrick Reiman">
+    <meta name = "viewport" content = "width=device-width, initial scale=1.0">
+    <title>I love HTML</title>
+    <link rel = "stylesheet" href = "./style.css">
+</head>
+
+<body>
+    <div>
+        <div class = "top">
+            <img width = "300" height = "200" src = "./img/thumbsup.png">
+            <h1>Super form submitter</h1>
+        </div>
+        <br>
+        <p>
+            <p>Pick your favorite side</p>
+            <table class = "table" rules = "all">
+                <tr>
+                    <th>Left</th>
+                    <th>Right</th>
+                </tr>
+                <tr>
+                    <td>Hot Weather</td>
+                    <td>Cold Weather</td>
+                </tr>
+                <tr>
+                    <td>Morning Person</td>
+                    <td>Night Owl</td>
+                </tr>
+                <tr>
+                    <td>Introvert</td>
+                    <td>Extrovert</td>
+                </tr>
+                <tr>
+                    <td>Studious</td>
+                    <td>Party-Goer</td>
+                </tr>
+            </table>
+            <br>
+            <form>
+                <label for = "name">Enter Name:</label><br>
+                <input type = "text" id = "name" name="name" required><br><br>
+
+                <label for = "answer1">Hot Weather</label>
+                <input type="radio" id="answer" name="cat1" value="Hot Weather" required> 
+                <label for = "answer1">Cold Weather</label> 
+                <input type="radio" id="answer" name="cat1" value="Cold Weather" required><br>
+
+                <label for = "answer2">Morning Person</label>
+                <input type="radio" id="answer" name="cat2" value="Morning Person" required> 
+                <label for = "answer2">Night Owl</label> 
+                <input type="radio" id="answer" name="cat2" value="Night Owl" required><br>
+
+                <label for = "answer3">Introvert</label>
+                <input type="radio" id="answer" name="cat3" value="Introvert" required> 
+                <label for = "answer3">Extrovert</label> 
+                <input type="radio" id="answer" name="cat3" value="Extrovert" required><br>
+
+                <label for = "answer4">Studious</label>
+                <input type="radio" id="answer" name="cat4" value="Studious" required> 
+                <label for = "answer5">Party-Goer</label> 
+                <input type="radio" id="answer" name="cat4" value="Party-Goer" required><br>
+
+                <button class = "button" type = "submit">Submit</button>
+            </form>
+        </p>
+    </div>
+</body>
