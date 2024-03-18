@@ -26,14 +26,7 @@ h2{
     color: white;
 }
 
-#h21 {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 20pt;
-    color: white;
-}
-
-/* Formatting for paragraph (and lists as they are nested in it) */
+/* Formatting for paragraph */
 
 p {
     font-size: 20pt;
