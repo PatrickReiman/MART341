@@ -1,6 +1,6 @@
 /* Body styling */
 body {
-    background-image: url("img/artemis.jpg");
+    background-image: url("img/orionearth.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 0, 0);
@@ -36,8 +36,7 @@ h2{
 /* Formatting for paragraph (and lists as they are nested in it) */
 
 p {
-    margin-top: 3.5em;
-    font-size: 13pt;
+    font-size: 20pt;
 }
 
 /* Formatting for button */
@@ -51,13 +50,11 @@ p {
     font-size: 27px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 3em;
 }
 
 /* Formatting for video */
 
 video {
-    margin-bottom: 4em;
     display: block;
     margin: 0 auto;
     visibility: hidden;

@@ -1,6 +1,6 @@
 // Function for playing sound when button is click
 function playSound() {
-    var audio = new Audio('./audio/Coup_d_tat.mp3');
+    var audio = new Audio('./audio/cannon.mp3');
     audio.play();
 }
 

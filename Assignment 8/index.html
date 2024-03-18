@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 
 <head>
-    <!-- Defines what type of encoding should be used -->
     <meta charset = "UTF-8">
-     <!-- Description of page -->
-    <meta name = "descripion" content = "Testing HTML elements">
-    <!-- Author of page -->
+    <meta name = "descripion" content = "no search engine results for you">
     <meta name = "author" content = "Patrick Reiman">
-    <!-- Varies viewport (zoom) of page so content fits screen (i.e., fits page better across different devices: mobile, computer, etc.) -->
     <meta name = "viewport" content = "width=device-width, initial scale=1.0">
-    <!-- Title when hovering over tab -->
-    <title>I love HTML</title>
-    <!-- THIS IS WHERE ATTRIBUTES ARE (I find it to be much more neat to use a css document instead of directly applying them in HTML) -->
+    <title>Fun HTML</title>
     <link rel = "stylesheet" href = "./style.css">
-    <!-- Links to JS document to run commands on first two buttons -->
     <script type = "text/javascript" src = "./javascript.js"></script>
 </head>
 
 <body>
     <div>
-        <!-- Section for all headers and subheaders -->
-        <h1>Sample page testing out various elements of HTML</h1>
-        <h2>This is a an example of a sub-header</h2>
-        <h2 id = "h21">This is also a sub-header, however, it has an id attached to it so I can change the size of the font</h2>
-        <br>
-        <!-- Paragraph where the nested list inherits applied formatting to paragraph -->
-        <p>This is a paragraph
-            <li>This</li>
-            <li>is</li>
-            <li>a</li>
-            <li>list</li>
-        </p>
-        <!-- Declaring the video's size, as well as what kind of video it is and where it should pull the file from -->
-        <video controls width="500" id = "video">
-            <source src="./video/surprise.mp4" type="video/mp4" />
-        </video>
-        <!-- All the buttons, first two run a function in JS file upon click, while the last one takes you to an external link upon clicking -->
-        <button class = "button" onclick = "playVideo();">Click me for surprise </button>
-        <button class = "button" onclick = "playSound();">Play sound</button>
-        <button class = "button" onclick = "location.href='https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1971'">Wikipedia Article</button>
+        <h1>Another Sample Page</h1>
+        <h2>I have <span style = "color:rgb(29, 165, 29)">&#163;100</span> in my pocket currently</h2>
+        <video controls width = "500" id = "video">
+            <source src = "./video/whowillknow.mp4" type = "video/mp4" />
+        </video><br>
+        <button class = "button" onclick = "playVideo();">Play Music Video</button><br><br><br>
+        <p>MV Summit Venture mayday call made after colliding with the Sunshine Skyway Bridge </p>
+        <audio controls>
+            <source src = "./audio/mayday.flac" type = "audio/flac" />
+        </audio><br><br><br>
+        <button class = "button" onclick = "playSound();">Javascript Audio Example</button><br><br><br>
+        <iframe width = "854" height = "480" src = "https://www.youtube.com/embed/Qe5WT22-AO8" allowfullscreen>
+        </iframe>
     </div>
 </body>
