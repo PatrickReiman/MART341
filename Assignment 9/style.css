@@ -1,0 +1,56 @@
+/* Body styling */
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+
+/* Formatting for all headers and derivatives */
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45pt;
+    color: rgb(72, 243, 138);
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30pt;
+    color: white;
+}
+
+/* Formatting for paragraph and derivatives (like lists) */
+
+li {
+    font-size: 15pt;
+}
+
+/* Formatting for button */
+
+.button {
+    color: #D92906;
+    background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#externalButton {
+    color: #0661d9;
+    background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
