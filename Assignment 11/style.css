@@ -80,3 +80,14 @@ video {
     margin: 0 auto;
     visibility: hidden;
 }
+
+/* Hover Formatting */
+#freedom {
+    /* This hides the element AND also makes it so it doesn't take up space in layout when hidden */
+    display: none;
+    margin-top: 1em;
+}
+
+.hover:hover #freedom{
+    display: inline;
+}
