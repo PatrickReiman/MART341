@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "descripion" content = "no search engine results for you">
+    <meta name = "author" content = "Patrick Reiman">
+    <meta name = "viewport" content = "width=device-width, initial scale=1.0">
+    <title>The Space Shuttle</title>
+    <link rel = "stylesheet" href = "./style.css">
+    <script type = "text/javascript" src = "./javascript.js"></script>
+</head>
+
+<body>
+    <div class = "container">
+        <h1>
+            <img id src = "./img/shuttle.png" height = "155" width = "150">
+            The Space Shuttle Program
+            <img src = "./img/NASA.webp" height = "155" width = "185">
+        </h1>
+            <h2>Operated from 1977 to 2011 with  <span style = "color: #f86363;">136 launches</span></h2>
+            <h3>In total, not counting Enterprise which did not have orbital capabilities, there were 5 orbiters (shuttles capable of making it into orbit):</h2>
+            <ul>
+                <li>Columbia</li>
+                <li>Challenger</li>
+                <li>Discovery</li>
+                <li>Atlantis</li>
+                <li>Endeavour</li>
+            </ul>
+            <h3>Noted accomplishments of the Space Shuttle program are the construction of the International Space Station (ISS), as well are crew ferrying missions to the ISS, the in-orbit repair of satellites (Hubble Space Telescope being a notable exampe) as well as putting satelittes into orbit, and conducting of scientific experiments in low-earth orbit (LEO).</h3>
+            <h3>The ability to conduct scientific experiments in microgravity and study the effects of radiation in space were indispensable as it unheard of to conduct long-term scientific experiments in space, unless you had a space-station. The Space Shuttle program utilized a module in the cargobay called Spacelab where these experiments could be done.</h3>
+            <h3>Time limitations on the experiment's length (as the orbiter had to go back to Earth) lead to space stations being built, however, the Americans opted to utilize Mir, a Soviet space station, over Skylab (an early American space station). This was likely due to the costs associated with the development of the Space Shuttle program, which had ballooned, and Congress sought a collaboration with the Soviets to make the ISS so America wouldn't have to foot the enter cost of a new space station.</h3>
+            <h3>During its 30 years of operation, the program suffered 2 catastrophic losses of orbiters (Challenger and Columbia).</h3>
+        <h2>Below is footage from a camera on the Solid Rocket Booster (SRB) of the Space Shuttle</h2>
+        <button class = "button" onclick = "playVideo();">Show Video</button><br>
+        <video controls width = "800" id = "video">
+            <source src = "./video/video.mp4" type = "video/mp4" />
+        </video>
+    </div>
+</body>

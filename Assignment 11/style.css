@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Nasalization; 
+    src: url('./font/nasalization-rg.otf');
+}
+
+/* Background */
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/* Formatting for image elements */
+
+
+/* Headers and their text */
+.container {
+    color: #ffffff;
+    font-family: Nasalization;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 70pt;
+    margin-top: -0.01em;
+}
+
+h2 {
+    color: #fdbdbd;
+    font-size: 25pt;
+}
+
+
+h3 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #ffffff;
+    font-size: 22pt;
+}
+
+ul {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #ffffff;
+    font-size: 22pt;
+    list-style-position: inside;
+}
+
+/* Button */
+.button {
+    font-family: Nasalization;
+    margin-left: auto; 
+    margin-right: auto;
+    color: #D92906;
+    background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color:#D92906;
+    color: #ffffff;
+    transition:0.5s;
+}
+
+.button:active {
+    color: #ffffff;
+    background-color: #da573d;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    visibility: hidden;
+}
