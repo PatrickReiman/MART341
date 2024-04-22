@@ -1,0 +1,123 @@
+/* HIGHEST HIERARCHICAL FORMATTING BLOCKS */
+
+/* Font */
+@font-face {
+    font-family: Nasalization; 
+    src: url('./font/nasalization-rg.otf');
+}
+
+/* Background */
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/* Headers and their text */
+.container {
+    color: #ffffff;
+    font-family: Nasalization;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+/* TOP OF PAGE FORMATTING */
+
+/* Images */
+#constellation {
+    max-height: 25%;
+    max-width: 25%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    border: solid;
+    border-width: 3px;
+}
+
+#NASA {
+    max-height: 25%;
+    max-width: 25%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    border: solid;
+    border-width: 3px;
+}
+
+/* Headers and their text */
+.top {
+    background-color: #d6d8df;
+    margin-bottom: 2em;
+}
+
+h1 {
+    color: #000000;
+    border: solid;
+    border-width: 3px;
+    font-size: 65pt;
+    margin-top: 0.82em;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/* MIDDLE OF PAGE FORMATTING */
+
+/* Headers and their text */
+.middle {
+    background-color: #d6d8df;
+}
+
+h2 {
+    color: #000000;
+    font-size: 25pt;
+    display: inline-block;
+    margin-bottom: -0.5em;
+}
+
+
+
+
+
+
+
+
+
+/* Button */
+.button {
+    font-family: Nasalization;
+    margin-left: auto; 
+    margin-right: auto;
+    color: #D92906;
+    background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color:#D92906;
+    color: #ffffff;
+    transition:0.5s;
+}
+
+.button:active {
+    color: #ffffff;
+    background-color: #da573d;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    visibility: hidden;
+}
