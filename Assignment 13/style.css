@@ -64,17 +64,80 @@ h1 {
     color: #ffffff;
     font-size: 25pt;
     display: inline-block;
-    margin-top: 15em;
+    margin-top: 18em;
+}
+
+/* Button */
+.button {
+    margin-left: auto; 
+    margin-right: auto;
+    color: #D92906;
+    background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color:#D92906;
+    color: #ffffff;
+    transition:0.5s;
+}
+
+.button:active {
+    color: #ffffff;
+    background-color: #da573d;
 }
 
 /* Images */
 #soyuz {
     float: left;
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 50%;
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+#okayship {
+    float: left;
+    width: 35%;
+    height: 35%;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Dropdown */
+.dropdownMaster {
+    display: inline-block;
+}
+
+.dropdownSub {
+    display: none;
+    position: absolute;
+    background-color: #535252;
+    z-index: 1;
+}
+
+.dropdownSub a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    min-width: 105px;
+}
+
+.dropdownSub a:hover {
+    background-color: #383333;
+    transition: 0.5s;
+}
+
+.dropdownMaster:hover .dropdownSub {
+    display: block;
 }
 
 /* Resizing */
