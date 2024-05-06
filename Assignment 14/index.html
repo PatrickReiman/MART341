@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "descripion" content = "no search engine results for you">
+    <meta name = "author" content = "Patrick Reiman">
+    <meta name = "viewport" content = "width=device-width, initial scale=1.0">
+    <title>fun game</title>
+    <link rel = "stylesheet" href = "./css/bootstrap.css">
+    <link rel = "stylesheet" href = "./css/style.css">
+    <script type = "text/javascript" src = "./javascript.js"></script>
+</head>
+
+<body onKeyDown = "movement(event)";>
+    <nav class = "navbar navbar-expand-lg navbar-dark" style = "background-color: #5c5c5c;">
+        <div class = "collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class = "navbar-nav">
+              <a class = "nav-item nav-link active ms-3" style = "font-size: 15pt;" href = "./index.html">Game</a>
+              <a class = "nav-item nav-link ms-2" style = "font-size: 15pt;" href = "./pages/bosnia.html">Bosnian War</a>
+              <a class = "nav-item nav-link ms-2" style = "font-size: 15pt;" href = "./pages/video.html">Video</a>
+            </div>
+          </div>
+      </nav>
+
+    <h1>Game I made for MART441, use WASD to collect the red square!</h1>
+    <canvas id = "squareTemp" width = "1000" height = "700" style = "border: 10px groove #ffffff;"></canvas>
+    <button id = "button" class = "button" onclick = 'window.open("https://patrickreiman.github.io/MART441/HW11/")'>Updated Game Version</button>
+    <script>
+        randomColor();
+        initialMakeSquare();
+    </script>
+</body>
